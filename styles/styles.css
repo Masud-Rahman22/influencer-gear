@@ -128,8 +128,28 @@ nav {
 
 .banner-img {
     background-image: url("../images/Circle\ design.svg");
-    width: 475px;
-    height: 475px;
+    /* width: 475px;
+    height: 475px; */
+    padding: 50px;
     background-repeat: no-repeat;
     background-position: center;
+}
+/* platform styles */
+.platform-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 75%;
+    min-height: 10px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 2px solid;
+    border-image: linear-gradient(135deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%) 1;
+    border-left: 0;
+    border-right: 0;
+    margin-top: 70px;
+}
+.platform-img{
+    margin-right: 60px;
 }
