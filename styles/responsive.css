@@ -1,0 +1,47 @@
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+        
+    }
+    .nav-listing{
+        flex-direction: column;
+    }
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+    .banner-description{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+    .button{
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+}
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    nav{
+        flex-direction: column;
+        
+    }
+    .nav-listing{
+        flex-direction: column;
+    }
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+    .banner-description{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+    .button{
+        width: 50%;
+        margin: 0 auto;
+    }
+}
